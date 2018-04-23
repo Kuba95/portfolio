@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+
+}
+
+#menu {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: right
+}
+
+
+#menu ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 40px;
+    line-height: 40px;
+
+}
+
+#menu ul li a {
+    color: limegreen;
+    text-decoration: none;
+    font-weight: 100;
+
+
+}
+
+#menu ul li a:hover {
+    background-color: lightyellow;
+}
+
+#background {
+    height: 100vh;
+    background-image: url(../portfolio-grafiki/img/header-background.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    font-size: 35px;
+
+
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 300;
+
+}
+
+
+.lime {
+    color: limegreen;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center
+}
+
+#about {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+
+.img {
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
+
+.img img {
+    width: 50%;
+}
+
+.omnie {
+    font-size: 19px;
+    font-weight: 200;
+    text-align: left;
+}
+
+#skills {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 200;
+    padding: 0 30px;
+    
+
+
+}
+
+.icons figure {
+    padding: 20px 20px;
+    display: inline-block;
+
+}
+
+#portfolio {
+    padding: 0 30px;
+
+}
+
+.box {
+    width: 33.33333%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    text-align: center;
+
+}
+
+.first {
+    background-image: url(../portfolio-grafiki/img/portfolio1.jpg);
+}
+
+.second {
+    background-image: url(../portfolio-grafiki/img/portfolio2.jpg);
+}
+
+.third {
+    background-image: url(../portfolio-grafiki/img/portfolio4.jpg);
+
+}
+
+.mask {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    opacity: 0;
+    transition: all 0.4s;
+
+
+}
+
+.border {
+    border: 1px solid white;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.mask:hover {
+    opacity: 1;
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 10px;
+    color: white;
+    text-align: center;
+
+}
+
+
+#contact {
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: #213b50;
+    margin-top: 100px;
+    float: left;
+    color: white;
+    font-weight: 300;
+    padding: 50px 30px;
+    
+}
+#contact  address{
+    font-style: normal
+}
+
+
+.formularz {
+    padding-top: 70px;
+}
+
+.contact,
+.formularz {
+    display: inline-block;
+    width: 50%;
+    float: left;
+
+
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 200;
+
+}
+
+.social-icons a {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+    line-height: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: all 0.4s;
+
+
+}
+
+.social-icons a:hover {
+    background-color: white;
+    color: #213b50;
+}
+
+.mail {
+    text-decoration: none;
+    color: limegreen;
+}
+
+.formularz input,
+textarea {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #213b69;
+    color: white;
+    border: 0;
+
+}
+
+
+textarea {
+    height: 60px;
+}
+
+input[type="submit"] {
+    background-color: limegreen;
+    width: 20%;
+    float: right;
+    font-weight: 200;
+    border: disabled;
+    text-align: center;
+
+}
+
+footer {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    background-color: #213b69;
+    color: white;
+    font-weight: 300;
+    padding-left: 30px;
+    
+
+}
+footer p {
+    margin: 0;
+}
+#mobile-menu,
+#menu-pad{
+    display: none;
+}

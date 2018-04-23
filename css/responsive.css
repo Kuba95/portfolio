@@ -1,0 +1,41 @@
+@media all and (max-width: 992px) {
+    #portfolio .box {
+        width: 50%;
+
+    }
+    #portfolio > div:nth-of-type(3) {
+        width: 100%;
+    }
+    #contact .contact {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #mobile-menu {
+        display: block;
+        text-align: center;
+        padding-right: 20px;
+        line-height: 40px;
+        color: #1AC056;
+    }
+
+    #menu ul {
+        display: none;
+    }
+    #menu #menu-pad:checked + ul {
+        display: block;
+    }
+
+    #portfolio .box {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    #about .omnie,
+    #about .img {
+        width: 100%;
+    }
+}
